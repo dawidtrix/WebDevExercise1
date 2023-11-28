@@ -118,6 +118,12 @@ article {
   width: 400%;
 }
 
+.videoBox {
+  width: 60%;
+  margin-bottom: 3rem;
+  align-self: end;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -138,8 +144,8 @@ h1 {
   margin-bottom: 5%;
   padding: 0%;
   right: 10%;
-  height: 85px;
-  width: 200px;
+  height: auto;
+  width: auto;
   background: -webkit-linear-gradient(70deg, rgb(132, 255, 0) 0%, #101010 45%, #101010 55%, rgb(132, 255, 0) 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -153,6 +159,11 @@ p, h2, h3, h4, h5, article {
 
 video, img, iframe {
   border-radius: 15px;
+}
+
+.progressBar {
+  background-color: rgb(132, 255, 0);
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar {
