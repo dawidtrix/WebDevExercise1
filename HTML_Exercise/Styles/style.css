@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(rgb(132, 255, 0) -175%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 65%, rgb(132, 255, 0) 175%);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*@keyframes radialGradient0 {
+    0% {
+        background-position-x: -50%;
+    }
+    50% {
+        background-position-x: 50%;
+    }
+    100% {
+        background-position-x: -50%;
+    }
+}
+
+@keyframes radialGradient1 {
+    0% {
+        left: -150%;
+    }
+    50% {
+        left: 150%;
+    }
+    100% {
+        left: -150%;
+    }
+}*/
+.MenuBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(90deg, rgb(132, 255, 0) -100%, #101010 20%, #101010 80%, rgb(132, 255, 0) 200%);
+  filter: drop-shadow(0px 0px 5px rgb(132, 255, 0));
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 0%;
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.MenuAnchor {
+  border-style: solid;
+  padding: 10px;
+  border-radius: 15px;
+  border-width: 2px 7px;
+  color: rgb(132, 255, 0);
+  text-decoration: none;
+  font-size: large;
+}
+
+#loginIcon {
+  height: 75px;
+  width: 75px;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*.radialGradientClass {
+    position: absolute;
+    z-index: -5;
+    width: 1500px;
+    height: 750px;
+    background-image: radial-gradient(rgba(132, 255, 0, 0.25), rgba(132, 255, 0, .15), rgba(132, 255, 0, 0), rgba(132, 255, 0, 0));
+}
+
+#radialGradient0 {
+
+    top: 100%;
+    animation: radialGradient0 5s ease infinite;
+}
+
+#radialGradient1 {
+    top: -75%;
+    right: -50%;
+    animation: radialGradient1 5s ease infinite;
+}*/
+article {
+  box-sizing: border-box;
+  padding: 2%;
+  margin: 1%;
+  text-align: justify;
+  background-color: rgb(29, 33, 29);
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 15px;
+  filter: drop-shadow(0px 0px 5px rgb(132, 255, 0));
+}
+
+#shortArticleAndAboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+#shortArticle {
+  margin-right: 1%;
+}
+
+#aboutMe {
+  width: 400%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  box-sizing: border-box;
+  font-size: 75px;
+  margin: 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 0%;
+  right: 10%;
+  height: 85px;
+  width: 200px;
+  background: -webkit-linear-gradient(70deg, rgb(132, 255, 0) 0%, #101010 45%, #101010 55%, rgb(132, 255, 0) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 0px 2px rgb(132, 255, 0));
+}
+
+p, h2, h3, h4, h5, article {
+  color: rgb(165, 188, 166);
+}
+
+video, img, iframe {
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(rgba(1, 1, 1, 0), rgb(132, 255, 0), rgba(1, 1, 1, 0));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(transparent, rgba(132, 255, 0, 0.5), transparent);
+}/*# sourceMappingURL=style.css.map */
