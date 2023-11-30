@@ -163,7 +163,7 @@ video, img, iframe {
 
 .progressBar {
   background-color: rgb(132, 255, 0);
-  border-radius: 20px;
+  filter: drop-shadow(0px 0px 1px rgb(132, 255, 0));
 }
 
 ::-webkit-scrollbar {
