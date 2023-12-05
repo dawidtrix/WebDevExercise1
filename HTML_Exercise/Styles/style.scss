@@ -12,29 +12,6 @@ body {
     padding: 0%;
 }
 
-/*@keyframes radialGradient0 {
-    0% {
-        background-position-x: -50%;
-    }
-    50% {
-        background-position-x: 50%;
-    }
-    100% {
-        background-position-x: -50%;
-    }
-}
-
-@keyframes radialGradient1 {
-    0% {
-        left: -150%;
-    }
-    50% {
-        left: 150%;
-    }
-    100% {
-        left: -150%;
-    }
-}*/
 .MenuBox {
     width: 100%;
     display: flex;
@@ -69,27 +46,8 @@ body {
     align-items: center;
     margin: 0%;
     padding: 0%;
+    filter: drop-shadow(0px 0px 2px $greenColor);
 }
-
-/*.radialGradientClass {
-    position: absolute;
-    z-index: -5;
-    width: 1500px;
-    height: 750px;
-    background-image: radial-gradient(rgba(132, 255, 0, 0.25), rgba(132, 255, 0, .15), rgba(132, 255, 0, 0), rgba(132, 255, 0, 0));
-}
-
-#radialGradient0 {
-
-    top: 100%;
-    animation: radialGradient0 5s ease infinite;
-}
-
-#radialGradient1 {
-    top: -75%;
-    right: -50%;
-    animation: radialGradient1 5s ease infinite;
-}*/
 
 article {
     box-sizing: border-box;
@@ -102,6 +60,7 @@ article {
     padding-top: 5px;
     border-radius: 15px;
     filter: drop-shadow(0px 0px 5px $greenColor);
+
 }
 
 #shortArticleAndAboutMe {
@@ -124,7 +83,12 @@ article {
 .videoBox {
     width: 60%;
     margin-bottom: 3rem;
-    align-self: end;
+    margin-top: 3%;
+}
+
+.rightBox {
+    margin-left: auto;
+    margin-right: 0;
 }
 
 footer {
@@ -159,8 +123,21 @@ p, h2, h3, h4, h5, article {
     color: rgb(165, 188, 166);
 }
 
-video, img, iframe {
+img {
     border-radius: 15px;
+}
+
+video {
+    border-radius: 15px;
+    width: 70%;
+    height: 45%;
+}
+
+iframe {
+    border-radius: 15px;
+    border: 0;
+    width: 44.5vw;
+    height: 25vw;
 }
 
 .progressBar {
