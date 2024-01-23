@@ -55,7 +55,6 @@ article {
     margin: 1%;
     text-align: justify;
     background-color: rgb(29, 33, 29);
-    padding-left: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
     border-radius: 15px;
@@ -121,6 +120,7 @@ h1 {
 
 p, h2, h3, h4, h5, article {
     color: rgb(165, 188, 166);
+    font-size: 1vmax;
 }
 
 img {
@@ -143,6 +143,118 @@ iframe {
 .progressBar {
     background-color: $greenColor;
     filter: drop-shadow(0px 0px 1px $greenColor);
+}
+
+.smallImage {
+    width: 32%;
+    height: 32%;
+}
+
+.smallImageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.mediumImage {
+    height: 50%;
+    width: 32%;
+}
+
+.mediumImageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bigImage {
+    width: 48%;
+    height: 40%;
+}
+
+.bigImageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+fieldset {
+    border: 0;
+}
+
+#mainBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#smallBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 100px solid green($color: #d40606);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contactFieldset {
+    background-color: black;
+    border: 0;
+    color: rgb(165, 188, 166);
+    border-radius: 4px;
+    
+}
+
+.ScrollUpButton {
+    border-style: solid;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 2px 7px;
+    border-color: $greenColor;
+    background-color: #101010;
+    color: $greenColor;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+#rightArticle {
+    width: 69%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#leftArticle {
+    width: 30%;
+}
+
+#mainBox.contactForm {
+    display: flex;
+    flex-direction: row;
+}
+
+#CSS_validation {
+    align-self: baseline;
+    margin: 1%
+}
+
+#greenLink {
+    color: $greenColor;
 }
 
 ::-webkit-scrollbar {

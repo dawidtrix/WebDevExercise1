@@ -6,6 +6,7 @@
     <meta name="keywords" content="HTML, exercise, website, webpage">
     <meta name="author" content="Dawid Batkowski">
     <link rel="stylesheet" href="Styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
 </head>
 
@@ -19,6 +20,7 @@
             <a class="MenuAnchor" href="/HTML_Exercise/contact.html">Contact</a>
             <a class="MenuAnchor" href="/HTML_Exercise/videos.html">Videos</a>
             <a class="MenuAnchor" href="/HTML_Exercise/gallery.html">Gallery</a>
+            <a class="MenuAnchor" href="/HTML_Exercise/animations.html">Animations</a>
         </nav>
 
         <div id="loginIcon">
@@ -36,7 +38,7 @@
             </article> <br>
 
             <article id="aboutMe">
-                <summary><strong>About Me</strong></summary>
+                <strong>About Me</strong>
                 <p><strong>Name:</strong> Dawid Batkowski <br><br> <strong>Languages:</strong> Polish, English, Swedish <br><br><strong> Skills:</strong><br></p>
                 
                 <label for="skills">Visual effects</label> <br>
@@ -48,7 +50,7 @@
                 <label for="Level_Design">Level design</label> <br>
                 <progress class="progressBar" id="Level_Design" value="80" max="100"></progress> <br> <br>
                 <label for="Animating">Animating</label> <br>
-                <progress class="progressBar" value="30" max="100"></progress> <br> <br>   
+                <progress class="progressBar" id="Animating" value="30" max="100"></progress> <br> <br>   
             </article> <br>
         </div>
 
@@ -73,9 +75,17 @@
         </div> <br>
 
         <form action="/HTML_Exercise/index.html">
-            <button type="submit">Back to the top</button>
-        </form> <br> <br> <br>
+            <button class="ScrollUpButton" type="submit">Back to the top</button>
+        </form> 
     </footer>
+
+    <p id="CSS_validation">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
 
     <div class="radialGradientClass" id="radialGradient0"></div>
     <div class="radialGradientClass" id="radialGradient1"></div>

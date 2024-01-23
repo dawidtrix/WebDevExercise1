@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Page</title>
 </head>
 
@@ -18,6 +19,7 @@
             <a class="MenuAnchor" href="/HTML_Exercise/index.html"><strong>Home</strong></a> 
             <a class="MenuAnchor" href="/HTML_Exercise/contact.html">Contact</a>
             <a class="MenuAnchor" href="/HTML_Exercise/videos.html">Videos</a>
+            <a class="MenuAnchor" href="/HTML_Exercise/animations.html">Animations</a>
         </nav> 
         
         <div id="loginIcon">
@@ -28,33 +30,43 @@
     <main>
         <article>
             <h3>3D Voxel models</h3>
-            <img src="/HTML_Exercise/img/Gallery/HouseExample1.png" width="385" height="385" alt="House">
-            <img src="/HTML_Exercise/img/Gallery/MountainExample1.png" width="385" height="385" alt="Mountain1">
-            <img src="/HTML_Exercise/img/Gallery/MountainExample2.png" width="385" height="385" alt="Mountain2">
-            <img src="/HTML_Exercise/img/Gallery/RoomExample1.png" width="385" height="385" alt="Room">
-            <img src="/HTML_Exercise/img/Gallery/KnightExample1.png" width="385" height="385" alt="Knight">
-            <img src="/HTML_Exercise/img/Gallery/CrusaderKnight.png" width="385" height="385" alt="Crusader knight">
+            <div class="smallImageContainer">
+                <img class="smallImage" src="/HTML_Exercise/img/Gallery/HouseExample1.png" alt="House">
+                <img class="smallImage" src="/HTML_Exercise/img/Gallery/MountainExample1.png" alt="Mountain1">
+                <img class="smallImage" src="/HTML_Exercise/img/Gallery/MountainExample2.png" alt="Mountain2">
+            </div>
+            <div class="smallImageContainer">
+                <img class="smallImage" src="/HTML_Exercise/img/Gallery/DeadKnight.png" alt="Room">
+                <img class="smallImage" src="/HTML_Exercise/img/Gallery/KnightExample1.png" alt="Knight">
+                <img class="smallImage" src="/HTML_Exercise/img/Gallery/CrusaderKnight.png" alt="Crusader knight">
+            </div>
         </article> <br><br>
 
         <article>
             <h3>3D models, VFX and level design in Unity</h3>
-            <img src="/HTML_Exercise/img/Gallery/jellyfish.png" width="620" height="400" alt="Jellyfish">
-            <img src="/HTML_Exercise/img/Gallery/LBS_guy.png" width="620" height="400" alt="LBS guy with a lightsaber">
-            <img src="/HTML_Exercise/img/Gallery/LevelDesignCore.png" width="620" height="400" alt="Fantasy world with a power core">
-            <img src="/HTML_Exercise/img/Gallery/LevelDesignThunders.png" width="620" height="400" alt="Thunder level">
+            <div class="bigImageContainer">
+                <img class="bigImage" src="/HTML_Exercise/img/Gallery/jellyfish.png" alt="Jellyfish">
+                <img class="bigImage" src="/HTML_Exercise/img/Gallery/LBS_guy.png" alt="LBS guy with a lightsaber">
+            </div>
+            <div class="bigImageContainer">
+                <img class="bigImage" src="/HTML_Exercise/img/Gallery/LevelDesignCore.png" alt="Fantasy world with a power core">
+                <img class="bigImage" src="/HTML_Exercise/img/Gallery/LevelDesignThunders.png" alt="Thunder level">
+            </div>
         </article> <br><br>
 
-        <article>
+        <article id="mediumImageContainer">
             <h3>Drawings</h3>
-            <img src="/HTML_Exercise/img/Gallery/AngelTransparent.png" width="400" height="600" alt="Drawing of an angel">
-            <img src="/HTML_Exercise/img/Gallery/KnightLogoDrawing.png" width="400" height="400" alt="Drawing of a knight in a circle">
-            <img src="/HTML_Exercise/img/Gallery/AngryPenguinDrawing.png" width="420" height="420" alt="Drawing of an angry penguin">
+            <div class="mediumImageContainer">
+                <img class="mediumImage" src="/HTML_Exercise/img/Gallery/AngelTransparent.png" alt="Drawing of an angel">
+                <img class="mediumImage" src="/HTML_Exercise/img/Gallery/KnightLogoDrawing.png" alt="Drawing of a knight in a circle">
+                <img class="mediumImage" src="/HTML_Exercise/img/Gallery/AngryPenguinDrawing.png" alt="Drawing of an angry penguin">
+            </div>
         </article> 
     </main> <br><br>
 
     <footer>
         <form action="/HTML_Exercise/gallery.html">
-            <button type="submit">Back to the top</button>
+            <button class="ScrollUpButton" type="submit">Back to the top</button>
         </form>
     </footer> <br><br><br><br>
 </body>
