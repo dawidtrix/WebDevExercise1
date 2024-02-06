@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 $greenColor: rgb(132, 255, 0);
+$randNum: random($limit: 200);
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -268,4 +269,41 @@ form {
   }
   ::-webkit-scrollbar-thumb:hover {
     background-image: linear-gradient(transparent, rgba(132, 255, 0, 0.5), transparent); 
+  }
+  
+  #animation1box {
+    height: 1200px;
+    width:  auto;
+  }
+  #animation1 {
+    width: 10px;
+    height: #{$randNum + 50}px;
+    background-color: rgb($randNum 100 100);
+    animation-duration: 3s;
+    animation-name: randomNumberGenerator;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+  }
+
+  #bigPixel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+
+  @keyframes randomNumberGenerator {
+    0%{
+        width: 10px;
+        background-color: rgb(random(150) random(250) random(220));
+    }
+
+    50%{
+        width: 50px;
+        background-color: rgb(random(142) random(180) random(250));
+    }
+
+    100%{
+        width: 10px;
+        background-color: rgb(random(50) random(250) random(128));
+    }
   }
